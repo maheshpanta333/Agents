@@ -1,0 +1,77 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+venv/
+.env/
+.env
+.venv/
+ENV/
+
+# -------------------------
+# Environment Variables
+# -------------------------
+.env.local
+.env.*.local
+
+# -------------------------
+# Jupyter Notebook
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# VS Code / IDE
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# LangChain / AI Artifacts
+# -------------------------
+
+# ChromaDB
+chroma/
+chromadb/
+
+# FAISS
+faiss_index/
+
+# LanceDB
+lancedb/
+
+# Local vector stores
+vectorstore/
+vectorstores/
+
+# Model cache
+.cache/
+models/
+
+# Temporary outputs
+outputs/
+temp/
+tmp/
+
+# LangSmith traces (optional)
+.langsmith/
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
